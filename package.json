@@ -8,8 +8,8 @@
     "test": "coffee test/event-channel.coffee"
   },
   "dependencies": {
-    "fairmont": "^0.8.2",
-    "typely": "0.0.0"
+    "fairmont": "file:../fairmont",
+    "typely": "file:../typely"
   },
   "devDependencies": {
     "testify": "^0.2.9"
