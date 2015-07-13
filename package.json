@@ -4,7 +4,7 @@
   "description": "EventEmitter-style events with event-bubbling",
   "main": "./lib/index.js",
   "scripts": {
-    "prepublish": "coffee -o lib/ -c src/*.coffee",
+    "prepublish": "coffee -o lib -c src",
     "test": "coffee test/event-channel.coffee"
   },
   "dependencies": {
